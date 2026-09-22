@@ -1,0 +1,52 @@
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%text%,%10%\%CUR_DIR%\%handwrite%,%10%\%CUR_DIR%\%unavail%,%10%\%CUR_DIR%\%vert%,%10%\%CUR_DIR%\%horz%,%10%\%CUR_DIR%\%dgnNWSE%,%10%\%CUR_DIR%\%dgnNESW%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%,%10%\%CUR_DIR%\%pin%,%10%\%CUR_DIR%\%person%"
+
+[Scheme.Cur]
+normal_select.cur
+help_select.cur
+working_in_background.cur
+busy.cur
+precision_select.cur
+text_select.cur
+handwriting.cur
+unavailable.cur
+vertical_resize.cur
+horizontal_resize.cur
+diagonal_resize2.cur
+diagonal_resize1.cur
+move.cur
+alternate_select.cur
+link_select.cur
+location_select.cur
+person_select.cur
+
+[Strings]
+CUR_DIR     = "Cursors\matecursorLIGHT"
+SCHEME_NAME = "matecursorLIGHT"
+pointer   = "normal_select.cur"
+help      = "help_select.cur"
+work      = "working_in_background.cur"
+busy      = "busy.cur"
+cross     = "precision_select.cur"
+text      = "text_select.cur"
+handwrite = "handwriting.cur"
+unavail   = "unavailable.cur"
+vert      = "vertical_resize.cur"
+horz      = "horizontal_resize.cur"
+dgnNWSE   = "diagonal_resize2.cur"
+dgnNESW   = "diagonal_resize1.cur"
+move      = "move.cur"
+alternate = "alternate_select.cur"
+link      = "link_select.cur"
+pin       = "location_select.cur"
+person    = "person_select.cur"
