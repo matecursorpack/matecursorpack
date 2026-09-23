@@ -1,0 +1,40 @@
+; ============================================================
+;  matecursorLIGHT - Cursor Scheme Installer (No Admin Required)
+;  Keep this file in the SAME folder as the .cur files.
+;  Right-click this file and choose "Install" - no UAC prompt needed.
+;  Then open Control Panel > Mouse > Pointers, pick "matecursorLIGHT"
+;  from the Scheme dropdown, and click Apply.
+;
+;  Note: because the cursors are referenced from this folder rather
+;  than copied into Windows, do not move, rename, or delete this
+;  folder after installing, or the scheme will break.
+; ============================================================
+
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+AddReg = Scheme.Reg
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%17%\%pointer%,%17%\%help%,%17%\%work%,%17%\%busy%,%17%\%cross%,%17%\%text%,%17%\%handwrite%,%17%\%unavail%,%17%\%vert%,%17%\%horz%,%17%\%dgnNWSE%,%17%\%dgnNESW%,%17%\%move%,%17%\%alternate%,%17%\%link%,%17%\%pin%,%17%\%person%"
+
+[Strings]
+SCHEME_NAME = "matecursorLIGHT"
+pointer   = "normal_select.cur"
+help      = "help_select.cur"
+work      = "working_in_background.cur"
+busy      = "busy.cur"
+cross     = "precision_select.cur"
+text      = "text_select.cur"
+handwrite = "handwriting.cur"
+unavail   = "unavailable.cur"
+vert      = "vertical_resize.cur"
+horz      = "horizontal_resize.cur"
+dgnNWSE   = "diagonal_resize2.cur"
+dgnNESW   = "diagonal_resize1.cur"
+move      = "move.cur"
+alternate = "alternate_select.cur"
+link      = "link_select.cur"
+pin       = "location_select.cur"
+person    = "person_select.cur"
